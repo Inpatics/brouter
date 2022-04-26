@@ -8,8 +8,6 @@ services:
     ports:
       - "3001:17777"
     container_name: brouter
-    volumes:
-      - .:/usr/src/app
     networks:
       - izzistrit_back_app-network
 
